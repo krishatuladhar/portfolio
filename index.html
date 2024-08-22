@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== UNICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--========== BOXICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+
+    <title>Krisha Tuladhar | Personal Portfolio</title>
+  </head>
+
+  <body>
+    <!--========== SIDEBAR ==========-->
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="./index.html" class="nav__logo-text">K</a>
+        </div>
+        <div class="nav__menu">
+          <div class="menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a href="#work" class="nav__link">Work</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Toggle Button for Mobile View -->
+    <div class="sidebar-toggle" id="sidebar-toggle">
+      <i class="uil uil-bars"></i>
+    </div>
+
+    <!--========== MAIN CONTENT ==========-->
+    <main class="main">
+      <!--===== Home Section =====-->
+      <section class="home" id="home">
+        <div class="home__container">
+          <h1 class="home__title">Hi, I'm Krisha 👩🏻‍💻</h1>
+          <h3 class="home__subtitle">Computer Science Student</h3>
+          <p class="home__description">
+            Passionate about software development, with a focus on creating
+            scalable and efficient web applications.
+          </p>
+          <a href="#about" class="button">
+            <i class="uil uil-user button__icon"></i> More about me
+          </a>
+        </div>
+        <img src="./assets/img/avatar.png" alt="Home Image" class="home__img" />
+      </section>
+    </main>
+    <!--========== JS ==========-->
+    <script src="./assets/js/sidebar.js"></script>
+  </body>
+</html>
