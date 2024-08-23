@@ -79,8 +79,8 @@
         </div>
         <img src="./assets/img/avatar.png" alt="Home Image" class="home__img" />
       </section>
-       <!--===== About Section =====-->
-       <section class="about section" id="about">
+      <!--===== About Section =====-->
+      <section class="about section" id="about">
         <h2 class="section__title" data-heading="My Intro">About Me</h2>
         <div class="about__container container grid">
           <img
@@ -102,7 +102,7 @@
           </div>
         </div>
       </section>
-     
+
       <!--===== Skills Section =====-->
       <section class="skills section" id="skills">
         <h2 class="section__title" data-heading="My Abilities">Skills</h2>
@@ -156,10 +156,101 @@
           </div>
         </div>
       </section>
+      <!--===== Work Section =====-->
+      <section class="work section" id="work">
+        <h2 class="section__title" data-heading="My Portfolio">
+          Recent Projects
+        </h2>
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img
+              src="./assets/img/website_development.png"
+              class="work__img"
+              alt="Web Development"
+            />
+            <h3 class="work__title">Web Development</h3>
+            <span class="work__button">
+              Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="uil uil-times work__modal-close"></i>
+                <img
+                  src="./assets/img/website_development.png"
+                  alt="Web Development"
+                  class="work__modal-img"
+                />
+                <p class="work__modal-title">Web Development Project</p>
+                <p class="work__modal-info">
+                  Developed a responsive and dynamic web application using React
+                  and Node.js, focusing on user experience and scalability.
+                </p>
+              </div>
+            </div>
+          </div>
 
+          <div class="work__card">
+            <img
+              src="./assets/img/data_analysis.png"
+              class="work__img"
+              alt="Data Analysis"
+            />
+            <h3 class="work__title">Data Analysis</h3>
+            <span class="work__button">
+              Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="uil uil-times work__modal-close"></i>
+                <img
+                  src="./assets/img/data_analysis.png"
+                  alt="Data Analysis"
+                  class="work__modal-img"
+                />
+                <p class="work__modal-title">Data Analysis Project</p>
+                <p class="work__modal-info">
+                  Conducted a comprehensive data analysis using Python, pandas,
+                  and machine learning algorithms to uncover insights from
+                  complex datasets.
+                </p>
+              </div>
+            </div>
+          </div>
 
+          <div class="work__card">
+            <img
+              src="./assets/img/software_development.png"
+              class="work__img"
+              alt="Software Development"
+            />
+            <h3 class="work__title">Software Development</h3>
+            <span class="work__button">
+              Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="uil uil-times work__modal-close"></i>
+                <img
+                  src="./assets/img/software_development.png"
+                  alt="Software Development"
+                  class="work__modal-img"
+                />
+                <p class="work__modal-title">Software Development Project</p>
+                <p class="work__modal-info">
+                  Built a desktop application using Python and PyQt for managing
+                  and visualizing data, emphasizing performance and usability.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--========== JS ==========-->
     <script src="./js/sidebar.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
