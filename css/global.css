@@ -480,3 +480,38 @@ input {
       object-fit: contain;
   }
 }
+
+/*=============== SKILLS SECTION ===============*/
+.skills__container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.skills__list {
+  width: 80%;
+  max-width: 500px;
+}
+
+.skills__titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: var(--box-color);
+}
+
+.skills__percentage {
+  display: block;
+  background-color: var(--skin-color);
+}
